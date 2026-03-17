@@ -15,7 +15,7 @@ A complete, feature-rich CCTV surveillance system designed for law enforcement r
 ## 📸 Preview
 
 <!-- Add your screenshots here -->
-![Preview](./screenshots/preview.jpg)
+![Preview](./preview.png)
 
 🎬 **[Watch Video Preview](https://www.youtube.com/watch?v=eT0SQnkEeSQ)**
 
