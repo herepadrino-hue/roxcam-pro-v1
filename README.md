@@ -78,13 +78,27 @@ A complete, feature-rich CCTV surveillance system designed for law enforcement r
 Open `config.lua` to configure:
 
 ```lua
-Config.Framework = "qbcore"  -- "esx" | "qbcore" | "standalone"
-Config.PlacementCommand = "placecam"
-Config.DiscordWebhook = "YOUR_WEBHOOK_URL"
+Config.Framework = 'standalone'  -- 'esx' | 'qbcore' | 'standalone'
 
-Config.MonitoringStations = {
-    { coords = vector3(0.0, 0.0, 0.0), label = "Police HQ" },
+Config.ScreenshotWebhook = 'YOUR_DISCORD_WEBHOOK_HERE'
+
+Config.PlacementCommand = 'nycm'
+Config.MaxCameras = 50
+Config.PlacementHeight = 3.0
+
+Config.PoliceJobs = { 'police', 'sheriff' }
+
+Config.MonitoringStation = {
+    coords = vector3(441.05, -978.72, 30.69),
+    interactionDistance = 2.0
 }
+
+Config.CameraDamage = {
+    enabled = true,     -- cameras can be physically damaged
+    brokenDuration = 900000
+}
+
+-- 🚧 Alert System (Gunshots, Explosions, Fire, etc.) - Coming in V2
 ```
 
 Full configuration documentation is included in the package.
