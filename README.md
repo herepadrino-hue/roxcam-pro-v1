@@ -102,7 +102,7 @@ roxcam-pro/
 ├── html/
 │   ├── index.html
 │   ├── style.css
-│   └── app.js
+│   └── script.js
 ├── sql/
 │   └── roxcam.sql
 ├── config.lua
