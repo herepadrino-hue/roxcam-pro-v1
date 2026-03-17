@@ -2,7 +2,7 @@ Config = {}
 
 Config.Framework = 'standalone'
 
-Config.ScreenshotWebhook = 'https://discord.com/api/webhooks/1448302693264134156/mQbyaIBAtv3OvDFJlyDhY89wnXyByjNNRJGmFLFzL-YQdSKQrSyWg1ysZghaWCTenZ8y'
+Config.ScreenshotWebhook = ''
 
 Config.UIKeybind = 'E'
 
